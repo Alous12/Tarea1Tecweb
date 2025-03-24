@@ -326,7 +326,8 @@
           <td>samp</td>
           <td>) se utiliza para incluir texto en línea que representa una muestra (o cita) de la salida de un programa de ordenador. </td>
           <td>
-            &lt;samp&gt;Este es un texto de salida de computadora&lt;/samp&gt;
+            &lt;p&gt;La salida del programa es &lt;samp&gt;Error: Archivo no encontrado&lt;/samp&gt;.&lt;/p&gt;
+
           </td>
         </tr>
 
@@ -335,7 +336,9 @@
           <td>30</td>
           <td>kbd</td>
           <td>Marca el texto que debe introducir el usuario.</td>
-          <td>&lt;kbd&gt;Este es un texto de entrada de usuario&lt;/kbd&gt;</td>
+          <td>
+            &lt;p&gt;Para copiar y pegar, usa &lt;kbd&gt;Ctrl + C&lt;/kbd&gt; para copiar y &lt;kbd&gt;Ctrl + V&lt;/kbd&gt; para pegar.&lt;/p&gt;
+          </td>
         </tr>
 
         <!--Conserver Formato-->
@@ -344,7 +347,12 @@
           <td>pre</td>
           <td> representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo.</td>
           <td>
-            &lt;pre&gt;Este es un texto que conserva el formato&lt;/pre&gt;
+            &lt;pre&gt;
+            function saludo() {
+             console.log("¡Hola Mundo!");
+            }
+            &lt;/pre&gt;
+
           </td>
         </tr>
 
@@ -354,7 +362,12 @@
           <td>address</td>
           <td></td>
           <td>
-            &lt;address&gt;Esta es la informacion de contacto&lt;/address&gt;
+            &lt;address&gt;
+            Correo electrónico: &lt;a href="mailto:ejemplo@dominio.com"&gt;ejemplo@dominio.com&lt;/a&gt;<br>
+            Teléfono: (123) 456-7890<br>
+            Dirección: Calle Ficticia 123, Ciudad Ejemplo
+            &lt;/address&gt;
+            
           </td>
         </tr>
 
@@ -364,7 +377,12 @@
           <td>33</td>
           <td>div</td>
           <td>aporta información de contacto para su &lt;article &gt; más cercano o ancestro en el último caso lo aplica a todo el documento.</td>
-          <td>&lt;div&gt;Este es un div&lt;/div&gt;</td>
+          <td>
+            &lt;div&gt;
+            &lt;h2&gt;Encabezado dentro de un div&lt;/h2&gt;
+            &lt;p&gt;Este es un párrafo dentro de un contenedor div.&lt;/p&gt;
+            &lt;/div&gt;
+          </td>
         </tr>
 
         <!--Elemento Span-->
@@ -372,7 +390,9 @@
           <td>34</td>
           <td>span</td>
           <td> Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.</td>
-          <td>&lt;span&gt;Este es un span&lt;/span&gt;</td>
+          <td>
+            &lt;p&gt;Este es un texto con &lt;span style="color: red;"&gt;resaltado&lt;/span&gt; en rojo.&lt;/p&gt;
+          </td>
         </tr>
 
         <!--Elementos Extra-->
