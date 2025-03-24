@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">HTML</a></li>
+          <li><a href="css.html">CSS</a></li>
+          <li><a href="js.html">JS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>HTML</h1>
+    </main>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Elemento</th>
+          <th>Proposito</th>
+          <th>Ejemplo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Elementos Semanticos -->
+        <!--Elemento main-->
+        <tr>
+          <td>1</td>
+          <td>main</td>
+          <td>Define el contenido principal del documento</td>
+          <td>
+            &lt;main&gt; 
+            &lt;p&gt;Contenido principal de la página&lt;/p&gt;
+            &lt;/main&gt;
+          </td>
+        </tr>
+
+        <!-- Elemento header -->
+        <tr>
+          <td>2</td>
+          <td>header</td>
+          <td>Representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes.</td>
+          <td>
+            &lt;header&gt;
+            &lt;h1&gt;Bienvenidos a mi sitio&lt;/h1&gt;
+            &lt;/header&gt;
+          </td>
+        </tr>
+
+        <!-- Elemento Article-->
+        <tr>
+          <td>3</td>
+          <td>article</td>
+          <td>representa una composición auto-contenida en un documento, una página, una aplicación o en un sitio, que se quiere que sea distribuíble y/o reutilizable de manera independiente, por ejemplo, en la redifusión.</td>
+          <td>
+            &lt;article&gt;
+            &lt;h2&gt;Noticia importante&lt;/h2&gt;
+            &lt;p&gt;Este es el contenido del artículo.&lt;/p&gt;
+            &lt;/article&gt;
+          </td>
+        </tr>
+
+        <!-- Elemento Section-->
+        <tr>
+          <td>4</td>
+          <td>section</td>
+          <td>representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema.</td>
+          <td>
+            &lt;section&gt;
+            &lt;h2&gt;Sobre nosotros&lt;/h2&gt;
+            &lt;p&gt;Información acerca de nuestra empresa.&lt;/p&gt;
+            &lt;/section&gt;
+          </td>
+        </tr>
+
+        <!--Elemento Nav-->
+        <tr>
+          <td>5</td>
+          <td>nav</td>
+          <td></td>
+          <td>
+            &lt;nav&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href="inicio.html"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="contacto.html"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/nav&gt;
+          </td>
+        </tr>
+
+        <!--Elemento Aside-->
+        <tr>
+          <td>6</td>
+          <td>aside</td>
+          <td>representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento.</td>
+          <td>
+            &lt;aside&gt;
+            &lt;p&gt;Publicidad o enlaces relacionados&lt;/p&gt;
+            &lt;/aside&gt;
+          </td>
+        </tr>
+
+        <!--Elemento Footer-->
+        <tr>
+          <td>7</td>
+          <td>footer</td>
+          <td>Representa un pie de página para el contenido de sección más cercano o el elemento raíz de sección.</td>
+          <td>
+            &lt;footer&gt;
+            &lt;p&gt;&copy; 2025 Mi Sitio Web&lt;/p&gt;
+            &lt;/footer&gt;
+          </td>
+        </tr>
+
+        <!--Elementos para Manejo de Texto -->
+        <!--Encabezado h1,h2,h3,h4,h5 y h6-->
+        <tr>
+          <td>8</td>
+          <td>Niveles de encabezado (h1, h2 ,h3, h4, h5, h6)</td>
+          <td>Un elemento de encabezado describe brevemente el tema de la sección que presenta. La información de encabezado puede ser usada por los agentes usuarios.</td>
+          <td>
+            &lt;h1&gt;Título principal&lt;/h1&gt;
+            &lt;h2&gt;Subtítulo&lt;/h2&gt;
+            &lt;h3&gt;Encabezado menor&lt;/h3&gt;
+          </td>
+        </tr>
+
+        <!--Title-->
+        <tr>
+          <td>9</td>
+          <td>title</td>
+          <td>Define el título del documento que se muestra en un browser la barra de título o la pestaña de una página.</td>
+          <td>&lt;title&gt;Este es el titulo&lt;/title&gt;</td>
+        </tr>
+
+        <!--Parrafo-->
+        <tr>
+          <td>10</td>
+          <td>p</td>
+          <td>Es el apropiado para distribuir el texto en párrafos.</td>
+          <td> &lt;p&gt;Este es un párrafo con información relevante.&lt;/p&gt;</td>
+        </tr>
+
+        <!--Salto de Linea-->
+        <tr>
+          <td>11</td>
+          <td>br</td>
+          <td>produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de las líneas es significante.</td>
+          <td>&lt;br&gt;</td>
+        </tr>
+
+        <!--Cambio de tema entre parrafos-->
+        <tr>
+          <td>12</td>
+          <td>hr</td>
+          <td>representa un cambio de tema entre párrafos (por ejemplo, un cambio de escena en una historia, un cambio de tema en una sección).</td>
+          <td>&lt;hr&gt;</td>
+        </tr>
+
+        <!--Word break opportunity-->
+        <tr>
+          <td>13</td>
+          <td>wbr</td>
+          <td>Representa una posición dentro del texto donde el explorador puede opcionalmente saltar una línea , aunque sus reglas de salto de línea de otra manera no crearían un salto en esa posición.</td>
+          <td>&lt;wbr&gt;Aqui va un salto de linea&lt;/wbr&gt;</td>
+        </tr>
+
+        <!--Super indice-->
+        <tr>
+          <td>14</td>
+          <td>sup</td>
+          <td>define un fragmento de texto que se debe mostrar, por razones tipográficas, más alto, y generalmente más pequeño, que el tramo principal del texto,</td>
+          <td>&lt;sup&gt;Aqui va un superindice&lt;/sup&gt;</td>
+        </tr>
+
+        <!-- Sub indice-->
+        <tr>
+          <td>15</td>
+          <td>sub</td>
+          <td>define un fragmento de texto que se debe mostrar, por razones tipográficas, más bajo, y generalmente más pequeño, que el tramo principal del texto</td>
+          <td>&lt;sub&gt; Aqui va un sub indice &lt;/sub&gt;</td>
+        </tr>
+
+        <!-- Texto importante-->
+        <tr>
+          <td>16</td>
+          <td>strong</td>
+          <td> es el apropiado para marcar con especial énfasis las partes más importantes de un texto.</td>
+          <td>&lt;p&gt;Este es un &lt;strong&gt;texto importante&lt;/strong&gt;&lt;/p&gt;</td>
+        </tr>
+
+        <!--Enfasis-->
+        <tr>
+          <td>17</td>
+          <td>em</td>
+          <td> es el apropiado para marcar con énfasis las partes importantes de un texto.</td>
+          <td>&lt;p&gt;Este es un &lt;em&gt;texto enfatizado&lt;/em&gt;&lt;/p&gt;</td>
+        </tr>
+
+        <!--Resaltado de texto-->
+        <tr>
+          <td>18</td>
+          <td>mark</td>
+          <td>representa un texto marcado o resaltado como referencia o anotación, debido a su relevancia o importancia en un contexto particular.</td>
+          <td>&lt;mark&gt;Este texto está resaltado&lt;/mark&gt;</td>
+        </tr>
+
+        <!--Cita en linea-->
+        <tr>
+          <td>19</td>
+          <td>q</td>
+          <td> indica que el texto adjunto es una cita corta en línea. La mayoría de los navegadores modernos implementan esto rodeando el texto entre comillas.</td>
+          <td>&lt;q&gt;Esto es una cita en línea&lt;/q&gt;</td>
+        </tr>
+
+        <!--Cita en Bloque-->
+        <tr>
+          <td>20</td>
+          <td>blockquote</td>
+          <td> Crea citas en bloque, marca las citas a otros autores o documentos.</td>
+          <td>
+            &lt;blockquote&gt;Esta es una cita en bloque&lt;/blockquote&gt;
+          </td>
+        </tr>
+
+        <!--Titulo de un trabajo-->
+        <tr>
+          <td>21</td>
+          <td>cite</td>
+          <td> Marca una referencia a una fuente, o el autor de un texto citado.</td>
+          <td>&lt;cite&gt;Este es el titulo de un trabajo&lt;/cite&gt;</td>
+        </tr>
+
+        <!--Definiciion de terminos-->
+        <tr>
+          <td>22</td>
+          <td>dfn</td>
+          <td>Sirve para marcar el término que se quiere definir.</td>
+          <td>&lt;dfn&gt;Esta es la definicion de un termino&lt;/dfn&gt;</td>
+        </tr>
+
+        <!--Abreviaturas-->
+        <tr>
+          <td>23</td>
+          <td>abbr</td>
+          <td>representa una abreviación o acrónimo</td>
+          <td>&lt;abbr&gt;Esta es una abreviatura&lt;/abbr&gt;</td>
+        </tr>
+
+        <!--Texto Pequeño-->
+        <tr>
+          <td>24</td>
+          <td>small</td>
+          <td> hace el tamaño del texto una talla más pequeña</td>
+          <td>&lt;small&gt;Este es un texto pequeño&lt;/small&gt;</td>
+        </tr>
+
+        <!--Texto Añadido-->
+        <tr>
+          <td>25</td>
+          <td>ins</td>
+          <td> marca las partes de un texto que han sido añadidos al documento.</td>
+          <td>&lt;ins&gt;Este es un texto añadido&lt;/ins&gt;</td>
+        </tr>
+
+        <!--Texto Eliminado-->
+        <tr>
+          <td>26</td>
+          <td>del</td>
+          <td>arca las partes de un texto o documento que han sido suprimidas o sustituidas.</td>
+          <td>&lt;del&gt;Este es un texto eliminado&lt;/del&gt;</td>
+        </tr>
+
+        <!--Tachar Texto-->
+        <tr>
+          <td>27</td>
+          <td>s</td>
+          <td>Muestra el texto tachado con una linea horizontal.</td>
+          <td>&lt;s&gt;Este es un texto tachado&lt;/s&gt;</td>
+        </tr>
+
+        <!--Codigo-->
+        <tr>
+          <td>28</td>
+          <td>code</td>
+          <td>Es el apropiado para marcar el código de un programa.</td>
+          <td>&lt;code&gt;Este es un codigo&lt;/code&gt;</td>
+        </tr>
+
+        <!--Salida de Computadora-->
+        <tr>
+          <td>29</td>
+          <td>samp</td>
+          <td>) se utiliza para incluir texto en línea que representa una muestra (o cita) de la salida de un programa de ordenador. </td>
+          <td>
+            &lt;samp&gt;Este es un texto de salida de computadora&lt;/samp&gt;
+          </td>
+        </tr>
+
+        <!--Entrada de Usuario-->
+        <tr>
+          <td>30</td>
+          <td>kbd</td>
+          <td>Marca el texto que debe introducir el usuario.</td>
+          <td>&lt;kbd&gt;Este es un texto de entrada de usuario&lt;/kbd&gt;</td>
+        </tr>
+
+        <!--Conserver Formato-->
+        <tr>
+          <td>31</td>
+          <td>pre</td>
+          <td> representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo.</td>
+          <td>
+            &lt;pre&gt;Este es un texto que conserva el formato&lt;/pre&gt;
+          </td>
+        </tr>
+
+        <!--Informacion de contacto-->
+        <tr>
+          <td>32</td>
+          <td>address</td>
+          <td></td>
+          <td>
+            &lt;address&gt;Esta es la informacion de contacto&lt;/address&gt;
+          </td>
+        </tr>
+
+        <!--Elementos Genericos-->
+        <!--Elememto Div-->
+        <tr>
+          <td>33</td>
+          <td>div</td>
+          <td>aporta información de contacto para su &lt;article &gt; más cercano o ancestro en el último caso lo aplica a todo el documento.</td>
+          <td>&lt;div&gt;Este es un div&lt;/div&gt;</td>
+        </tr>
+
+        <!--Elemento Span-->
+        <tr>
+          <td>34</td>
+          <td>span</td>
+          <td> Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.</td>
+          <td>&lt;span&gt;Este es un span&lt;/span&gt;</td>
+        </tr>
+
+        <!--Elementos Extra-->
+        <!--Elemento ul-->
+        <tr>
+          <td>35</td>
+          <td>ul</td>
+          <td>ul de "unordered list" -lista no ordenada . crea una lista no ordenada.</td>
+          <td>
+            &lt;ul&gt;
+            <br />
+            &lt;li&gt;Elemento li&lt;/li&gt;
+            <br />
+            &lt;/ul&gt;
+          </td>
+        </tr>
+
+        <!--Elemento li-->
+        <tr>
+          <td>36</td>
+          <td>li</td>
+          <td>El elemento li del ingles item list o elemento de lista declara cada uno de los elementos de una lista.</td>
+          <td>
+            &lt;ul&gt;
+            &lt;li&gt;Elemento 1&lt;/li&gt;
+            &lt;li&gt;Elemento 2&lt;/li&gt;
+            &lt;/ul&gt;
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </body>
+</html>
